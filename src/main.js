@@ -1,6 +1,6 @@
 const display = document.getElementById("display");
 
-function appendToDisplay(input) {
+const appendToDisplay = (input) => {
     if (display.value === "Error") {
         display.value = input;
     } else {
