@@ -21,4 +21,3 @@ function clearDisplay () {
     display.value = "";
 }
 
-//
